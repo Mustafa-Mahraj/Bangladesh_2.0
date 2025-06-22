@@ -221,7 +221,7 @@ td{
     padding: 20px;
     /* border: 1px solid gray; */
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(65, 65, 65, 0.63);
+    box-shadow: 2px 2px 10px rgba(65, 65, 65, 0.411);
     margin-top: 30px;
 }
 .satelite{
@@ -243,4 +243,45 @@ td{
     color: #0E0E0EB3;
     margin-top: 12px;
     margin-bottom: 25px;
+}
+/* donate today section */
+.donate{
+    text-align: center;
+}
+.donate_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+.donate_card{
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(151, 150, 150, 0.808);
+}
+.input{
+    width: 70%;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150, 0.808);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.newsletter{
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #C6E4D6;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.Subscribe{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #006a50;
+    color: white;
 }
